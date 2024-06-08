@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Story</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <header class="navbar navbar-expand-lg sticky-top p-4" id="cabecalho">
+        <div class="container">
+            <h1 class="navbar-brand m-0 fw-bold section-title">Game Story</h1>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu-navegacao">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="navbar-collapse collapse justify-content-end" id="menu-navegacao">
+                <ul class="nav nav-pills d-block d-md-flex">
+                    <li class="nav-item fw-bold">
+                        <a href="#sobre-o-restaurante" class="nav-link active">
+                            <i class="bi bi-house-door me-1"></i>
+                            Sobre a Loja
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#eventos" class="nav-link">
+                            <i class="bi bi-calendar-check me-1"></i>
+                            Eventos
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#cardapio" class="nav-link">
+                            <i class="bi bi-card-text me-1"></i>
+                            Produtos
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#fale-conosco" class="nav-link">
+                            <i class="bi bi-chat-left-text me-1"></i>
+                            Participe da Comunidade
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+<div data-bs-spy="scroll" data-bs-target="cabecalho" data-bs-smooth-scroll="true">
+    <section id="sobre-o-restaurante">
+        <div class="carousel slide" data-bs-ride="carousel" id="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="3000">
+                    <img src="/carousel/kratos.jpg" alt="kratos">
+                </div>
+                <div class="carousel-item" data-bs-interval="3000">
+                    <img src="/carousel/eafc.jpeg" alt="eafc">
+                </div>
+                <div class="carousel-item" data-bs-interval="3000">
+                    <img src="/carousel/cod.jpg" alt="cod">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carousel" class="active" data-bs-slide-to="0"></button>
+                <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+                <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
+            </div>
+        </div>
+        <div class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-5">
+                        <img src="loja-de-games.jpg" class="d-block w-100 rounded" alt="espaço interno restaurante">
+                    </div>
+                    <div class="col-md-7 mt-3 mt-md-0">
+                        <h2 class="section-title">Sobre <span class="text-colored">a Loja</span></h2>
+                        <p class="text-colored">
+                            Nossa loja, inaugurada em 2018, conta com os melhores consoles, acessorios e produtos para sua diversão, para jogar com seus amigos e para fazer lives. 
+                        </p>
+                        <h3 class="section-title">Sobre <span class="text-colored">o espaço</span></h3>
+                        <p class="text-colored">
+                            O espaço conta com amplas prateleiras com diversos games, acessorios e consoles para atualizar o seu espaço gamer, contamos também com nosso calendario de campeonatos, fique atento para participar de um deles.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
+    <section id="eventos" class="pt-5 pb-5">
+        <div class="container">
+            <div class="row">
+                <h2 class="section-title text-center text-colored-contato">Eventos e <span class="text-colored-contato">Campeonatos</span></h2>
+            </div>
+            <div class="row mt-4">
+                <div class="col-md-4">
+                    <img src="images/eventos/aniversario.jpg" alt="" class="d-block w-100 rounded mb-2">
+                    <h3 class="section-title text-colored-contato fs-4">
+                        <i class="bi bi-dpad-fill"></i>
+                        Campeonato de Call Of Duty</h3>
+                    <p>
+                        Venha mostrar suas habilidades em uma das franquias mais famosas de jogos de tiro, Call Of Duty, convide seus amigos e participe.
+                    </p>
+                </div>
+                                <div class="col-md-4">
+                    <img src="images/eventos/casamento.jpg" alt="" class="d-block w-100 rounded mb-2">
+                    <h3 class="section-title text-colored-contato fs-4">
+                        <i class="bi bi-calendar-heart-fill"></i>
+                        Aniversarios</h3>
+                    <p>
+                        Venha comemorar o aniversario do seu filho ou o seu proprio aniversario, fornecemos todo o tipo de console para sua diversão, venha fazer um orçamento conosco.
+                    </p>
+                </div>
+                                <div class="col-md-4">
+                    <img src="images/eventos/confraternizacoes.jpg" alt="" class="d-block w-100 rounded mb-2">
+                    <h3 class="section-title text-colored-contato fs-4">
+                        <i class="bi bi-dpad-fill"></i>
+                        Campeonato de EAFC 24</h3>
+                    <p>
+                        Qual seu jogador preferido do EAFC 24? Kylian Mbappé? Vinicius Junior? Jude Bellingham? Erling Haaland? Venha mostrar pra nós no campeonato de EAFC, convide seus amigos e participe.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="cardapio" class="pt-5 pb-5">
+        <div class="container">
+            <div class="row">
+                <h2 class="section-title text-center mb-5">
+                    <span class="text-colored">Produtos</span>
+                </h2>
+            </div>
+            <div class="row">
+                <aside class="col-md-2">
+                    <nav class="nav nav-pills flex-column nav-cardapio">
+                        <button type="button" data-bs-toggle="tab" data-bs-target="#bebidas-sem-alcool" class="fw-bold text-start nav-link text-colored active">Consoles</button>
+                        <button type="button" data-bs-toggle="tab" data-bs-target="#bebidas-alcoolicas" class="fw-bold text-start nav-link text-colored">Controles</button>
+                        <button type="button" data-bs-toggle="tab" data-bs-target="#entradas" class="fw-bold text-start nav-link text-colored">Jogos</button>
+                    </nav>
+                </aside>
+                <div class="col-md-10">
+                    <div class="tab-content">
+                        <div class="tab-pane active" id="bebidas-sem-alcool">
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <img class="d-block w-100" src="consoles/ps5.jpeg" alt="PS5" />
+                                    <div class="card-body"></div>
+                                    <h5 class="text-colored fw-bold mt-2">PlayStation 5</h5>
+                                    <div class="card-subtitle text-colored fw-bold">R$ 3.500,00</div>
+                                </div>
+                                <div class="col-md-3">
+                                    <img class="d-block w-100" src="consoles/ps4.png" alt="PS4" />
+                                    <h5 class="text-colored fw-bold mt-2">PlayStation 4</h5>
+                                    <div class="card-subtitle text-colored fw-bold">R$ 2.200,00</div>
+                                </div>
+                                <div class="col-md-3">
+                                    <img class="d-block w-100" src="consoles/xbox-series.jpeg" alt="Xbox Series" />
+                                    <h5 class="text-colored fw-bold mt-2">Xbox Series</h5>
+                                    <div class="card-subtitle text-colored fw-bold">R$ 2.900,00</div>
+                                </div>
+                                <div class="col-md-3">
+                                    <img class="d-block w-100" src="consoles/xbox-one.jpeg" alt="Xbox One" />
+                                    <h5 class="text-colored fw-bold mt-2">Xbox One</h5>
+                                    <div class="card-subtitle text-colored fw-bold">R$ 2.100,00</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane" id="bebidas-alcoolicas">
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <img class="d-block w-100" src="acessorios/controle ps5.jpg" alt="Controle PS5" />
+                                    <h5 class="text-colored fw-bold mt-2">Controle PS5</h5>
+                                    <div class="card-subtitle text-colored fw-bold">R$ 350,00</div>
+                                </div>
+                                <div class="col-md-3">
+                                    <img class="d-block w-100" src="acessorios/controle-ps4.jpeg" alt="Controle PS4" />
+                                    <h5 class="text-colored fw-bold mt-2">Controle PS4</h5>
+                                    <div class="card-subtitle text-colored fw-bold">R$ 220,00</div>
+                                </div>
+                                <div class="col-md-3">
+                                    <img class="d-block w-100" src="acessorios/controle-xbox-series.jpg" alt="Controle Xbox Series" />
+                                    <h5 class="text-colored fw-bold mt-2">Controle Xbox Series</h5>
+                                    <div class="card-subtitle text-colored fw-bold">R$ 350,00</div>
+                                </div>
+                                <div class="col-md-3">
+                                    <img class="d-block w-100" src="acessorios/controle-xbox-one.jpg" alt="Controle Xbox One" />
+                                    <h5 class="text-colored fw-bold mt-2">Controle Xbox One</h5>
+                                    <div class="card-subtitle text-colored fw-bold">R$ 220,00</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane" id="entradas">
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <img class="d-block w-100" src="jogos/eafc24.jpg" alt="EAFC" />
+                                    <h5 class="text-colored fw-bold mt-2">EAFC 24</h5>
+                                    <div class="card-subtitle text-colored fw-bold">R$ 250,00</div>
+                                </div>
+                                <div class="col-md-3">
+                                    <img class="d-block w-100" src="jogos/god-of-war-ragnarok.webp" alt="God Of War Ragnarok" />
+                                    <h5 class="text-colored fw-bold mt-2">God Of War Ragnarok</h5>
+                                    <div class="card-subtitle text-colored fw-bold">R$ 200,00</div>
+                                </div>
+                                        <div class="col-md-3">
+                                            <img class="d-block w-100" src="jogos/hogwarts.jpg" alt="Hogwarts" />
+                                            <h5 class="text-colored fw-bold mt-2">Hogwarts Legacy</h5>
+                                            <div class="card-subtitle text-colored fw-bold">R$ 200,00</div>
+                                        </div>
+                                                <div class="col-md-3">
+                                                    <img class="d-block w-100" src="jogos/cod.jpeg" alt="Call Of Duty" />
+                                                    <h5 class="text-colored fw-bold mt-2">Call Of Duty - Modern Warfare 2</h5>
+                                                    <div class="card-subtitle text-colored fw-bold">R$ 100,00</div>
+                                                </div>
+                            </div>
+                        </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="fale-conosco" class="pt-5 pb-5">
+        <div class="container">
+            <div class="row">
+                <h2 class="section-title text-colored-contato text-center">Fale <span class="text-colored-contato">Conosco</span></h2>
+            </div>
+            <div class="row">
+                <div class="col-md-7 mb-5">
+                    <form>
+                        <div class="mb-3">
+                            <label for="nome" class="form-label fw-bold text-colored-contato">Seu Nome</label>
+                            <input type="text" id="nome" class="form-control" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label fw-bold text-colored-contato">Seu E-mail</label>
+                            <input type="email" id="email" class="form-control" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="telefone" class="form-label fw-bold text-colored-contato">Seu Telefone (opcional)</label>
+                            <input type="tel" id="telefone" class="form-control">
+                        </div>
+                        <div class="mb-3">
+                            <label for="mensagem" class="form-label fw-bold text-colored-contato">Sua Mensagem</label>
+                            <textarea class="form-control" id="mensagem" required></textarea>
+                        </div>
+                        <button type="submit" class="btn fw-bold">Enviar</button>
+                    </form>
+                </div>
+                <div class="col-md-5">
+                    <div class="row">
+                        <h3 class="section-title fs-4 text-colored-contato">
+                            <i class="bi bi-hand-thumbs-up-fill"></i>
+                            Redes Sociais
+                        </h3>
+                        <ul class="social-links">
+                            <li class="fs-5">
+                                <a href="#">
+                                    <i class="bi bi-facebook text-colored-contato"></i>
+                                </a>
+                            </li>
+                            <li class="fs-5 ms-1 me-1">
+                                <a href="#">
+                                    <i class="bi bi-instagram text-colored-contato"></i>
+                                </a>
+                            </li>
+                            <li class="fs-5">
+                                <a href="#">
+                                    <i class="bi bi-whatsapp text-colored-contato"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="row mt-4">
+                        <h3 class="section-title fs-4 text-colored-contato">
+                            <i class="bi bi-cursor-fill"></i>
+                            Endereço
+                        </h3>
+                        <p>
+                            Rua Teste, n°145 - Bairro Bootstrap - São Paulo, SP 
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

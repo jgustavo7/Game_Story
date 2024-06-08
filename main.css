@@ -1,0 +1,81 @@
+body {
+    font-family: Roboto, sans-serif;
+}
+
+.navbar {
+    background-color: #000000;
+}
+
+#cabecalho .nav .nav-link.active {
+    background-color: #fff;
+    color: #000;
+}
+
+#cabecalho .nav .nav-link, 
+.navbar-brand, 
+.navbar-brand:hover,
+.nav-cardapio .nav-link.active:hover {
+    color: #fff;
+}
+
+.navbar-brand {
+    font-family: Oswald;
+    font-size: 35px;
+}
+
+.navbar-toggler {
+    background-color: #fff;
+}
+
+.section-title {
+    color: #fff;
+    font-family: Bebas Neue;
+}
+
+#sobre-o-restaurante, #cardapio {
+    background-color: #220058;
+}
+
+.text-colored {
+    color: #fff;
+}
+
+.nav-cardapio .nav-link.active,
+#fale-conosco button {
+    background-color: #000;
+    color: #fff;
+}
+
+#fale-conosco {
+    background-color: #ffffff;
+}
+
+.card-subtitle {
+    font-size: 18px;
+}
+
+.nav-cardapio .nav-link:hover {
+    color: #000;
+}
+
+.social-links li {
+    list-style: none;
+    display: inline;
+}
+
+.social-links a {
+    text-decoration: none;
+}
+
+.text-colored-contato {
+    font-size: Roboto, sans-serif;
+    color: #000;
+}
+
+
+@media (max-width: 767px) {
+    .carousel-item img {
+        height: 250px;
+    }
+}
+
